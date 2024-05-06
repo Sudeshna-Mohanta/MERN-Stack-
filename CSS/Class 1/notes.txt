@@ -1,0 +1,23 @@
+Style > Id > Class > Type > Universal
+1000    100   10     1      0  
+
+
+style="color: brown;" ( Inline Style in CSS)
+
+What is ID Selector?
+An ID selector is declared using a hash (#) of characters.
+If we want to choose one html tag then we can use ID Selector.
+
+What is Class Selector?
+An Class selector is declared using a dot (.) of characters.
+If we want to choose multiple html tags then we can use Class Selector.
+
+Inline element - Inline elements can take the size as per the requirement. 
+Can't set the height and width.
+Example- span tag , a tag , b tag , img tag etc
+
+Block element - Block elements take the whole size .
+Can set the height and width.
+Example- div tag , p tag , h1..h6 tag , ul tag , li tag etc 
+
+

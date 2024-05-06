@@ -1,0 +1,27 @@
+body{
+  background-color: red;
+}
+
+
+
+#heading{
+  background-color: black;
+  color: white;
+  width: 300px;
+  font-size: 40px;
+}
+
+#paragraph{
+  background-color: black;
+  color: white;
+  font-size: 30px;
+}
+span{
+  background-color: black;
+  color: white;
+  font-size: 30px;
+  width: 200px;
+}
+img{
+  border-radius: 100%;
+}

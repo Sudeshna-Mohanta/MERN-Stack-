@@ -1,0 +1,12 @@
+How to generate a boiler plate code in html.
+Shift + ! 
+
+<> </> (tags)
+<> opening tags 
+</> closing tags
+
+Heading Tags - 
+h1... h6 tags 
+
+Paragraph Tags 
+<p> </p>
