@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.main-section {
+  border: 1px solid;
+  width: 1000px;
+  position: relative;
+  height: 500px;
+}
+
+.box {
+  border: 1px solid green;
+  width: 100px;
+  height: 100px;
+}
+
+#box1 {
+  background-color: blue;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+#box2 {
+  background-color: blueviolet;
+}
+
+#box3 {
+  background-color: yellow;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+#box4 {
+  background-color: red;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+}
+
+#box5 {
+  background-color: pink;
+}
+
+#heading{
+  text-align: center;
+  font-size: 4em;
+  position: fixed;
+  top: 50px;
+  left: 200px;
+  border: 1px solid;
+}

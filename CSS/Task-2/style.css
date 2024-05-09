@@ -1,0 +1,202 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-section {
+  /* border: 1px solid; */
+  display: grid;
+  grid-template-columns: repeat(18, 55px);
+  gap: 3px;
+  margin: 100px 250px;
+}
+
+.element {
+  background-color: lightblue;
+  border: 1px solid black;
+  text-align: center;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.row-1 {
+  display: grid;
+  grid-template-columns: repeat(18, 55px);
+  gap: 3px;
+}
+
+.row-2 {
+  display: grid;
+  grid-template-columns: repeat(18, 55px);
+  grid-row-start: 2;
+  gap: 3px;
+}
+
+.row-3 {
+  display: grid;
+  grid-template-columns: repeat(18, 55px);
+  grid-row-start: 3;
+  gap: 3px;
+}
+
+.row-4 {
+  display: grid;
+  grid-template-columns: repeat(18, 55px);
+  grid-row-start: 4;
+  gap: 3px;
+}
+
+.row-5 {
+  display: grid;
+  grid-template-columns: repeat(18, 55px);
+  grid-row-start: 5;
+  gap: 3px;
+}
+
+.row-6 {
+  display: grid;
+  grid-template-columns: repeat(18, 55px);
+  grid-row-start: 6;
+  gap: 3px;
+}
+
+.row-7 {
+  display: grid;
+  grid-template-columns: repeat(18, 55px);
+  grid-row-start: 7;
+  gap: 3px;
+}
+
+.row-8 {
+  display: grid;
+  grid-template-columns: repeat(18, 55px);
+  grid-row-start: 8;
+  grid-column-start: 3;
+  gap: 3px;
+  margin-top: 15px;
+}
+
+.row-9 {
+  display: grid;
+  grid-template-columns: repeat(18, 55px);
+  grid-row-start: 9;
+  grid-column-start: 3;
+  gap: 3px;
+}
+
+#h,
+#c,
+#n,
+#o,
+#f,
+#p,
+#s,
+#cl,
+#se,
+#br,
+#i {
+  background-color: lightgreen;
+}
+
+#li,
+#na,
+#k,
+#rb,
+#cs,
+#fr {
+  background-color: red;
+}
+
+#be,
+#mg,
+#ca,
+#sr,
+#ba,
+#ra {
+  background-color: orange;
+}
+
+#al,
+#zn,
+#ga,
+#cd,
+#in,
+#sn,
+#hg,
+#tl,
+#pb,
+#bi,
+#po,
+#cn {
+  background-color: plum;
+}
+
+#b,
+#si,
+#ge,
+#as,
+#sb,
+#te,
+#at {
+  background-color: yellow;
+}
+
+#he,
+#ne,
+#ar,
+#kr,
+#xe,
+#rn {
+  background-color: palevioletred;
+}
+
+#la,
+#ce,
+#pr,
+#nd,
+#pm,
+#sm,
+#eu,
+#gd,
+#tb,
+#dy,
+#ho,
+#er,
+#tm,
+#yb,
+#lu,
+#box1 {
+  background-color: skyblue;
+}
+
+#ac,
+#th,
+#pa,
+#u,
+#np,
+#pu,
+#am,
+#cm,
+#bk,
+#cf,
+#es,
+#fm,
+#md,
+#no,
+#lr,
+#box2 {
+  background-color: seagreen;
+}
+
+#mt,
+#ds,
+#rg,
+#nh,
+#fl,
+#mc,
+#lv,
+#ts,
+#og {
+  background-color: grey;
+}
