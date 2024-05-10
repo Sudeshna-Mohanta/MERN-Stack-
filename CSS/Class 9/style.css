@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-section{
+  width: 500px;
+  height: 200px;
+  border: 1px solid;
+  background-color: #aeaaaa;
+  position: relative;
+}
+
+.box{
+  border: 1px solid ;
+  width: 100px;
+  height: 100px;
+
+}
+
+#box1{
+  background-color: lightblue;
+  position: absolute;
+  z-index: 3;
+  top: 0;
+
+}
+
+#box2{
+  background-color: burlywood;
+  position: absolute;
+  z-index: 2;
+  top: 0;
+
+}
+
+#box3{
+  background-color: cornflowerblue;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 150px;
+
+}

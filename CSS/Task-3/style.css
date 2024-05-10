@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  font-family: "Briem Hand", cursive;
+  color: #333;
+}
+
+.main-section {
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 80px;
+}
+
+.navbar {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 5px 50px;
+}
+
+.logo img {
+  width: 100px;
+  height: auto;
+}
+
+.links a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  margin: 0 15px;
+  background-color: black;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.links a:hover {
+  color: goldenrod;
+  box-shadow: 0px 0px 10px white;
+}
+
+.about-section {
+  padding: 75px 100px;
+  background-color: white;
+}
+
+.heading {
+  font-size: larger;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.service-section {
+  padding: 20px;
+  background-color: white;
+}
+
+.services {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 10px;
+}
+
+.service-card {
+  border-radius: 10px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  margin: 20px 10px;
+}
+
+.service-card img {
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.service-card h2 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.service-card p {
+  text-align: center;
+  font-size: 18px;
+}
+
+.service-card:hover {
+  border: 1px dotted goldenrod;
+  cursor: pointer;
+}
+
+.contact-section {
+  padding: 50px 20px;
+  background-color: white;
+}
+
+.contact-form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.contact-form textarea {
+  height: 150px;
+}
+
+.contact-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: orange;
+  color: black;
+}
+
+.about-section p {
+  margin-top: 10px;
+}
