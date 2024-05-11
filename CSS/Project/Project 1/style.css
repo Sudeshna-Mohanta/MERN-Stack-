@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Briem Hand", cursive;
+}
+
+body {
+  background-color: #ccc;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.content_box {
+  max-width: 600px;
+  background-color: white;
+  margin: 0 auto;
+  padding: 20px;
+  margin-top: 50px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border-radius: 15px;
+}
+
+.sub_title {
+  font-size: 20px;
+}
+
+.form_container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.form_control {
+  display: flex;
+  flex-direction: column;
+}
+
+input,
+select,
+textarea {
+  padding: 6px 10px;
+  border-radius: 5px;
+}
+
+input:focus {
+  outline-color: brown;
+}
+
+textarea:focus {
+  outline-color: brown;
+}
+
+.button_container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+button {
+  background-color: dodgerblue;
+  padding: 8px 10px;
+  color: white;
+  border: transparent;
+  border-radius: 5px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: brown;
+  transition: 1s ease-in-out;
+}
+
+.text_area_control {
+  display: grid;
+  grid-column: 1 / span 2;
+}
