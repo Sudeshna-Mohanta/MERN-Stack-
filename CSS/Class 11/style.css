@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  background-color: teal;
+  color: white;
+  font-size: 23px;
+  padding: 20px 30px;
+  border-radius: 10px;
+  border: none;
+  transition: 3s ease-in-out;
+  font-size: 50px;
+}
+
+.btn:hover {
+  background-color: chocolate;
+  cursor: pointer;
+  /* transform: scale(10); */
+  transform: rotate(180deg);
+}
+
+.btn:active {
+  background-color: green;
+}
+
+.btn::before {
+  content: "\1F60A";
+}

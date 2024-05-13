@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.box-container {
+  display: flex;
+  gap: 10px;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  height: 200px;
+  width: 200px;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+  border-radius: 10px;
+}
+
+.red {
+  background-color: red;
+  animation-name: fade;
+  animation-name: move;
+}
+
+.blue {
+  background-color: blue;
+  animation-name: fade;
+}
+
+.green {
+  background-color: green;
+  animation-name: fade;
+}
+
+.yellow {
+  background-color: yellow;
+  animation-name: fade;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+@keyframes move {
+  from {
+    transform: translateX(-50px);
+  }
+
+  to {
+    transform: translateX(0px);
+  }
+}
