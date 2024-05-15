@@ -19,6 +19,7 @@
   text-align: center;
   align-content: center;
   font-size: 1em;
+  transition-duration: 1.2s;
 }
 
 h1 {
@@ -172,9 +173,24 @@ h1 {
   color: white;
 }
 
+.diatomic-non-metal:hover {
+  background-color: lightcoral;
+  transform: translateY(-30px) rotate(15deg);
+  color: black;
+  border-radius: 5px;
+  border: none;
+}
+
 .alkali-metals {
   background-color: red;
   color: white;
+}
+
+.alkali-metals:hover {
+  background-color: yellow;
+  color: black;
+  transform: scale(1.5);
+  border: none;
 }
 
 .alkaline-metals {
@@ -182,9 +198,24 @@ h1 {
   color: white;
 }
 
+.alkaline-metals:hover {
+  background-color: maroon;
+  transform: skewY(20deg) scale(1.2);
+  border-radius: 5px;
+  border: none;
+}
+
 .transition-metals {
   background-color: dodgerblue;
   color: white;
+}
+
+.transition-metals:hover {
+  background-color: navy;
+  border-radius: 50%;
+  transform: scale(1.5) rotate(360deg);
+  border-radius: 5px;
+  border: none;
 }
 
 .lanthanide {
@@ -192,9 +223,23 @@ h1 {
   color: white;
 }
 
+.lanthanide:hover {
+  background-color: orangered;
+  transform: rotateX(360deg) scale(1.6);
+  border-radius: 10px;
+  border: none;
+}
+
 .actinide {
   background-color: hotpink;
   color: white;
+}
+
+.actinide:hover {
+  background-color: mediumaquamarine;
+  transform: rotate(360deg) skewX(30deg);
+  border-radius: 10px;
+  border: none;
 }
 
 .unknown-chemicals {
@@ -202,9 +247,24 @@ h1 {
   color: white;
 }
 
+.unknown-chemicals:hover {
+  background-color: #5c3317;
+  border: none;
+  /* animation-name: rotate; */
+  border-radius: 50%;
+  transform: scaleX(2) skew(20deg);
+}
+
 .noble-gas {
   background-color: teal;
   color: white;
+}
+
+.noble-gas:hover {
+  background-color: darkkhaki;
+  border-radius: 5px;
+  border: none;
+  transform: rotate3d(1, 1, 1, -30deg) scale(1.2);
 }
 
 .post-transition {
@@ -212,12 +272,55 @@ h1 {
   color: white;
 }
 
+.post-transition:hover {
+  background-color: plum;
+  color: black;
+  transform: scale(1.4) skewX(20deg);
+  border-radius: 5px;
+  border: none;
+}
+
 .metalloid {
   background-color: darkgoldenrod;
   color: white;
 }
 
+.metalloid:hover {
+  background-color: olive;
+  transform: translateY(50px) rotate(30deg) scale(1.2);
+  border-radius: 2px;
+  border: none;
+}
+
 .polyatomic-nonmetal {
   background-color: mediumvioletred;
   color: white;
+  /* animation-name: rotate;
+  animation-fill-mode: forwards;*/
+  animation: rotate 1s forwards;
+}
+
+.polyatomic-nonmetal:hover {
+  background-color: #87043f;
+  border-radius: 5px;
+  border: none;
+  animation: rotateOnHover 1s forwards;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rotateOnHover {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
