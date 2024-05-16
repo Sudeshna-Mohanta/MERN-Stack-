@@ -1,0 +1,11 @@
+// Variable : Variable is a container which is used to store the data .
+
+// Keywords : var , let and const.
+
+//Recommended --> let and const
+
+Example : let num = 10;
+
+//Javascript is case-sensitive(A == a)
+
+// let second num = 1000;  (space is not allowed while declaraing variables.)
