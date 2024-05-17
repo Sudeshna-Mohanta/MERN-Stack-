@@ -9,3 +9,7 @@ Example : let num = 10;
 //Javascript is case-sensitive(A == a)
 
 // let second num = 1000;  (space is not allowed while declaraing variables.)
+
+//String is a collection of characters.
+
+//String should be in "..." 
