@@ -1,3 +1,5 @@
+// DATE : 21-05-2024
+
 //Ans 1.
 
 let birthdate = new Date("December 20 2001");
@@ -26,9 +28,9 @@ console.log(age); // 23
 
 //Ans 6.
 
-let fruits = ["apple", "banana", "mango"];
-fruits.push("orange");
-console.log(fruits); // [ 'apple', 'banana', 'mango', 'orange' ]
+// let fruits = ["apple", "banana", "mango"];
+// fruits.push("orange");
+// console.log(fruits); // [ 'apple', 'banana', 'mango', 'orange' ]
 
 //Ans 7.
 
@@ -81,3 +83,24 @@ let myArray = [10, 20, 30];
 myArray.push(40); // 40 is first added
 console.log(myArray.pop()); // 40 will be printed in the console and then it will be removed.
 console.log(myArray); // [ 10, 20, 30 ]
+
+console.log(
+  "----------------------------------------------------------------------------------"
+);
+// DATE : 22-05-2024
+
+//Ans 1 .
+let Numbers = [1, 20, 12, 4];
+Numbers.push(5);
+console.log(Numbers); // [ 1, 20, 12, 4, 5 ]
+Numbers.splice(0, 1);
+console.log(Numbers);
+
+//Ans 2 .
+
+let array1 = ["Apple", "Mango ", "Orange"];
+let array2 = ["Grapes", "Cherry", "Coconut", "Mango"];
+let Fruits = array1.concat(array2);
+console.log(Fruits); // ["Apple" , "Mango " , "Orange" , "Grapes" , "Cherry" , "Coconut" , "Mango"]
+Fruits.splice(1, 2);
+console.log(Fruits); // [ 'Apple', 'Grapes', 'Cherry', 'Coconut', 'Mango' ]
