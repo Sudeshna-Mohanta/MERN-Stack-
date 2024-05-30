@@ -1,0 +1,54 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: white;
+}
+
+.carousel {
+  position: relative;
+  width: 99%;
+  overflow: hidden;
+  border-radius: 2px;
+  
+}
+
+.carousel_inner {
+  display: flex;
+  transition: transform 1s ease;
+  
+}
+
+.carousel_item {
+  min-width: 100%;
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  overflow: hidden;
+}
+
+button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: black;
+  border: none;
+  padding: 30px 10px;
+  z-index: 1;
+  cursor: pointer;
+}
+
+#prev {
+  left: 0px;
+  
+}
+
+#next {
+  right: 0px;
+}
+
+button:focus {
+  outline: none;
+}

@@ -1,0 +1,16 @@
+.heading{
+ text-align: center;
+ color: #333333;
+}
+
+.sub-heading{
+  text-align: center;
+  color: #007bff;
+}
+
+
+.main_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,20 @@
+{
+  "images": [
+    {
+      "url": "https://i.pinimg.com/originals/0e/45/fb/0e45fbdec938239ec6bdf34d0c6bd0af.jpg",
+      "alt": "img1"
+    },
+    {
+      "url": "https://images8.alphacoders.com/463/463381.jpg",
+      "alt": "img2"
+    },
+    {
+      "url": "https://images.pexels.com/photos/3766113/pexels-photo-3766113.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "alt": "img3"
+    },
+    {
+      "url": "https://almajedgroup.me/wp-content/uploads/2019/11/IW344202_Mood-2500x1875.jpg",
+      "alt": "img4"
+    }
+  ]
+}
