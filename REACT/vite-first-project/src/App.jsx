@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import "./App.css";
 import Card from "./components/Card";
 
@@ -17,6 +18,16 @@ function App() {
     this.role = role;
     this.city = city;
   };
+
+  // class Person {
+  //   constructor(name, age) {
+  //     this.name = name;
+  //     this.age = age;
+  //   }
+  // }
+  const person1 = new User("John Doe", 30);
+
+  // console.log(typeof User);
 
   const user1 = new User("Sudeshna Mohanta", 22, "Frontend", "Baripada");
   const user2 = new User("Raj", 18, "Student", "Baripada");
