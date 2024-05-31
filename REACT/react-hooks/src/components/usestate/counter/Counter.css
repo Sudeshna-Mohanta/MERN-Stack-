@@ -1,0 +1,16 @@
+.counter_box {
+  /* border: 1px solid; */
+  padding: 20px;
+}
+
+.btn {
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+  margin: 14px;
+}
+
+.btn:hover {
+  background-color: rgb(0, 0, 0, 0.2);
+  cursor: pointer;
+}

@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main_container {
+  width: 700px;
+  text-align: center;
+  background-color: rgb(193, 191, 191);
+  margin: 42px;
+}
+
+.react_hooks {
+  padding: 10px;
+}

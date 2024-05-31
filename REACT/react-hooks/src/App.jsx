@@ -1,14 +1,17 @@
-import Counter from './components/usestate/counter/counter'
-import './App.css'
+// import Counter from "./components/usestate/counter/Counter";
+// import Show from "./components/usestate/showtext/Show";
+import Form from "./components/useref/Form";
+import "./App.css";
 
 function App() {
-  
   return (
-   <div>
-    <h1>React Hooks</h1>
-    <Counter/>
-   </div>
-  )
+    <div className="main_container">
+      <h1 className="react_hooks">React Hooks</h1>
+      {/* <Counter />
+      <Show /> */}
+      <Form />
+    </div>
+  );
 }
 
-export default App
+export default App;

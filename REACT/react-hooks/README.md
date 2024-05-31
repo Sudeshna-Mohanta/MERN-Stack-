@@ -35,3 +35,10 @@ evenOdd(5);  //call
 - const [variable/state , function: to change the value] = useState("")
 - By the help of function we can change/manipulate the value.
 
+## Useref Hook :
+
+- useRef is a hook that allows you to persist values between renders.
+-Unlike state , changing a useref value does not cause a re-render.
+-useref returns a mutuable ref objects with a .current property.
+-Syntax : const ref = useRef(null)
+
