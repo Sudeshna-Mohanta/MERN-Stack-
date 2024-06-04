@@ -13,10 +13,12 @@ body {
 }
 
 .main_container {
-  width: 700px;
+  width: 800px;
   text-align: center;
   background-color: rgb(193, 191, 191);
   margin: 42px;
+  height: 600px;
+  padding: 20px;
 }
 
 .react_hooks {
