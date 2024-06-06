@@ -55,3 +55,4 @@ evenOdd(5); //call
 - useEffect is used to handle errors, such as catching errors, and more.
 - useEffect is used to handle optimization, such as memoizing values, and more.
 - useEffect is used to handle debugging, such as logging values, and more.
+  `

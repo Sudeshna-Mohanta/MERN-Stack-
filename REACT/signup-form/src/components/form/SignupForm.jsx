@@ -13,15 +13,17 @@ const SignupForm = () => {
   const nameRef = useRef();
 
   const handleChange = (e) => {
+    // console.log(formData);
     const { name, value } = e.target;
     setFormData({ ...formData, [name]: value });
   };
 
   const handleSubmit = (e) => {
-    e.preventDefault();
+    e.preventDefault(); // It will not refresh the page .
     saveData(formData);
     setFormData({ name: "", email: "", password: "" });
-    nameRef.current.focus();
+    // nameRef.current.focus();
+    console.log(nameRef.current.value);
   };
 
   return (
