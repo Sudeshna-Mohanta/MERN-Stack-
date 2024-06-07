@@ -5,9 +5,29 @@ const os = require("os");
 // console.log(http);
 
 //Create a server
+// const server = http.createServer((req, res) => {
+//   if (req.url === "/") {
+//     res.end("Hey welcome to my server");
+//   } else if (req.url === "/about"){
+//     res.end("Hey welcome to my about page")
+//   }
+// });
+
 const server = http.createServer((req, res) => {
-  if (req.url === "/") {
-    res.end("Hey welcome to my server");
+  switch (req.url) {
+    case "/":
+      res.end("Hey welcome to my server");
+      break;
+    case "/contact":
+      res.end("Hey welcome to my contact page");
+      break;
+    case "/about":
+      res.end("Hey welcome to my about page");
+      break;
+
+    default:
+      res.end("404 page not found");
+      break;
   }
 });
 

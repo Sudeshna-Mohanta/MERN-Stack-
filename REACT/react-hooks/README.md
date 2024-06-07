@@ -28,7 +28,12 @@ evenOdd(5); //call
 - useState is a hook that lets you add react state to functional components.
   -Syntax: const [name , setName] = useState("Sudeshna");
 - const [variable/state , function: to change the value] = useState("")
-- By the help of function we can change/manipulate the value.
+- By the help of function we can change/manipulate t
+
+
+
+
+he value.
 
 ## Useref Hook :
 

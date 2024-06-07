@@ -11,7 +11,7 @@
 3. Create a file name `index.js`
 4. Import the necessary modules :
 
-- `http` module for creating a a server.
+- `http` module for creating a server.
 - `fs` module for reading and writing files.
 
 5. Create a server using `http.createServer()` method.
