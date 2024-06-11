@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Sudeshna",
+    "age": 22,
+    "city": "Baripada",
+    "id": 1
+  },
+  {
+    "name": "Latika",
+    "age": 22,
+    "city": "Gandhinagar",
+    "id": 2
+  },
+  {
+    "name": "Raj",
+    "age": 18,
+    "city": "Mayurbhanj",
+    "id": 3
+  }
+]
