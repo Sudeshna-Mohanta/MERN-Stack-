@@ -1,0 +1,6 @@
+// Schema -- To define the structure in mongodb.
+// Model  -- Schema 
+// Model  -- using model we can perform CRUD operations.
+// Collection -- Collection is a group of mongodb documents and each collection stores in a separate BSON file. 
+//Document -- A document in mongodb is a JSON like data structure. 
+// Collections -- Mongo stores the data in the form of documents and these documents are stored in collections. 

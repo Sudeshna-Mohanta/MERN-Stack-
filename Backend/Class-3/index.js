@@ -6,7 +6,7 @@ const greeting = require("./data");
 
 const readData = () => {
   const data = fs.readFileSync("data.json");
-  return JSON.parse(data);
+  return JSON.parse(data); //parses the string into a js object
 };
 
 const writeData = (data) => {
@@ -88,16 +88,17 @@ app.get("/users/:id", (req, res) => {
 app.put("/users/:id", (req, res) => {
   let { id } = req.params;
   const users = readData();
-  const userid = users.find((user, i) => {
+  const userid = users.findIndex((user) => {
     return user.id === parseInt(id);
   });
 
-  if (!users) {
-    res.send(`User not found!`);
-  } else {
-    users[userid] = { id: users[userid], ...req.body };
+  if (userid !== -1) {
+    users[userid] = { id: users[userid].id, ...req.body };
     writeData(users);
     res.send(users[userid]);
+   
+  } else {
+    res.send(`User not found!`);
   }
 });
 
